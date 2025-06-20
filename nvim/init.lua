@@ -34,10 +34,10 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 
 local config = require("nvim-treesitter.configs")
 config.setup({
-  ensure_installed = {"lua", "python", "javascript", "html"},
+  ensure_installed = {"lua", "python", "javascript", "html", "bash"},
   highlight = {enable = true},
   indent = {enable = true},
 })
 
 require("catppuccin").setup()
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "catppuccin-mocha"
