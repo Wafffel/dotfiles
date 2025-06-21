@@ -2,3 +2,5 @@
 
 # Disable greeting message
 set fish_greeting
+
+starship init fish | source
