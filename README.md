@@ -9,3 +9,4 @@ starship
 firefox
 ttf-font-awesome
 ttf-sourcecodepro-nerd
+rofi
