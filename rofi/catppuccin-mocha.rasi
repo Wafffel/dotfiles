@@ -84,7 +84,6 @@ element {
     padding: 5;
     vertical-align: 0.5;
     border-radius: 0;
-    background-color: @surface0;
 }
 
 element.selected.normal {
