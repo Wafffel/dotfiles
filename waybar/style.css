@@ -9,8 +9,8 @@
 
 window#waybar {
     background: transparent;
-    background-color: @crust;
-    color: @overlay0;
+    background-color: @mantle;
+    color: @mantle;
     transition-property: background-color;
     transition-duration: 0.1s;
 }
@@ -35,6 +35,7 @@ button:hover {
 
 #workspaces button {
     padding: 0 4px;
+    color: @surface2;
 }
 
 #workspaces button.focused {
