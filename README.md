@@ -10,3 +10,5 @@ firefox
 ttf-font-awesome
 ttf-sourcecodepro-nerd
 rofi
+fzf
+bat
