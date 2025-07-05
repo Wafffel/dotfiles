@@ -10,3 +10,5 @@ vim.opt.relativenumber = true
 vim.diagnostic.config({
   virtual_text = true
 })
+
+vim.api.nvim_create_autocmd("VimLeave", { command = "set guicursor=a:ver25" })
