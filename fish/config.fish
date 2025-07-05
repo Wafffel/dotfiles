@@ -20,5 +20,3 @@ end
 
 fzf --fish | source
 alias fzfp="fzf --preview \"bat --color=always --style=numbers --line-range=:500 {}\""
-
-echo -ne '\e[5 q'
