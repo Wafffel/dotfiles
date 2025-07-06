@@ -1,0 +1,43 @@
+icons=1
+markup=1
+actions=1
+width=300
+height=200
+sort=-time
+invisible=0
+group-by=none
+format=%s\n%b
+layer=overlay
+border-size=1
+max-visible=10
+margin=2,2,2,2
+outer-margin=15
+max-icon-size=42
+anchor=top-right
+border-radius=0
+ignore-timeout=0
+text-alignment=right
+default-timeout=3000
+on-button-left=dismiss-all
+font=SauceCodePro Nerd Font Bold 12.0
+icon-path=/usr/share/icons/hicolor
+
+
+# Colors (Catppuccin Mocha)
+
+background-color=#181825
+text-color=#cdd6f4
+border-color=#74c7ec
+progress-color=over #313244
+
+# Per-mode settings
+
+[mode=do-not-disturb]
+invisible=1
+on-notify=none
+
+[mode=silent]
+on-notify=none
+
+[urgency=high]
+border-color=#fab387
