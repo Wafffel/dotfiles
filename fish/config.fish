@@ -19,9 +19,9 @@ if status is-interactive
 end
 
 fzf --fish | source
-alias fzf="fzf --preview \"bat --color=always --style=numbers --line-range=:500 {}\""
+alias fzf="fzf --preview \"bat --color=always --style=numbers --theme='Catppuccin Mocha' --line-range=:500 {}\""
 
-alias bat="bat --color=always --style=numbers"
+alias bat="bat --color=always --style=numbers --theme=\"Catppuccin Mocha\""
 
 if status is-interactive
     printf "\033[6 q"
