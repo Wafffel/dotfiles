@@ -20,3 +20,7 @@ end
 
 fzf --fish | source
 alias fzfp="fzf --preview \"bat --color=always --style=numbers --line-range=:500 {}\""
+
+if status is-interactive
+    printf "\033[6 q"
+end
