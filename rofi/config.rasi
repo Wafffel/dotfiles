@@ -1,5 +1,5 @@
 configuration {
-    font: "SauceCodePro Nerd Font 12";
+    font: "SauceCodePro Nerd Font Bold 12";
     show-icons: true;
 
     display-ssh:    "󰣀 ssh:";
