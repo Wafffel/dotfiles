@@ -12,3 +12,6 @@ ttf-sourcecodepro-nerd
 rofi
 fzf
 bat
+hypridle
+hyprlock
+mako
