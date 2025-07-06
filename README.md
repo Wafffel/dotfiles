@@ -6,7 +6,7 @@ tmux
 nvim
 waybar
 starship
-firefox
+brave-bin(aur)
 ttf-font-awesome
 ttf-sourcecodepro-nerd
 rofi
