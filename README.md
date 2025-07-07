@@ -16,3 +16,4 @@ hypridle
 hyprlock
 hyprpaper
 mako
+btop
