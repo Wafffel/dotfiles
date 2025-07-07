@@ -14,4 +14,5 @@ fzf
 bat
 hypridle
 hyprlock
+hyprpaper
 mako
