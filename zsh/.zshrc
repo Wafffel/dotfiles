@@ -38,6 +38,4 @@ if [[ -t 1 && -z "$TMUX" ]]; then
   exec tmux new-session -A -s "$SESSION_NAME"
 fi
 
-echo -ne "\e[6 q"
-
 export FZF_DEFAULT_OPTS=" --color=bg+:#1e1e2e,bg:#181825,spinner:#f5c2e7,hl:#f38ba8 --color=fg:#cdd6f4,header:#89b4fa,info:#cba6f7,pointer:#f5c2e7 --color=marker:#b4befe,fg+:#cdd6f4,prompt:#fab387,hl+:#f38ba8"
