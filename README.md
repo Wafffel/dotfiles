@@ -15,5 +15,6 @@ bat
 hypridle
 hyprlock
 hyprpaper
+hyprshot
 mako
 btop
