@@ -1,7 +1,7 @@
 # Needed packages:
 hyprland
 kitty
-fish
+zsh
 tmux
 nvim
 waybar
