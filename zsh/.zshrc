@@ -29,9 +29,9 @@ function precmd() {
 
 source <(fzf --zsh)
 
-alias fzf='fzf --preview "bat --color=always --style=numbers --theme=\"Catppuccin Mocha\" --line-range=:500 {}"'
-
-alias bat='bat --color=always --style=numbers --theme="Catppuccin Mocha"'
+if [[ -f "$HOME/.config/zsh/.zsh_aliases" ]]; then
+  source "$HOME/.config/zsh/.zsh_aliases"
+fi
 
 echo -ne "\e[6 q"
 
