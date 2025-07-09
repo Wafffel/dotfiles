@@ -7,6 +7,20 @@ bindkey -v
 
 unsetopt BEEP
 
+if [[ ! -f ~/.zinit/bin/zinit.zsh ]]; then
+  mkdir -p ~/.zinit && git clone https://github.com/zdharma-continuum/zinit.git ~/.zinit/bin
+fi
+source ~/.zinit/bin/zinit.zsh
+
+zinit light zsh-users/zsh-completions
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light jeffreytse/zsh-vi-mode
+
+autoload -Uz compinit && compinit
+
+eval "$(zoxide init zsh)"
+
 eval "$(starship init zsh)"
 
 FIRST_PROMPT=1

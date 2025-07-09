@@ -18,3 +18,4 @@ hyprpaper
 hyprshot
 mako
 btop
+zoxide
