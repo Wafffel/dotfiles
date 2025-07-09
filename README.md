@@ -20,3 +20,4 @@ mako
 btop
 zoxide
 less
+yazi
