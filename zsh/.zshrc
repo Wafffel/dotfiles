@@ -16,6 +16,7 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light jeffreytse/zsh-vi-mode
+zinit light djui/alias-tips
 
 autoload -Uz compinit && compinit
 
