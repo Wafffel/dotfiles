@@ -19,3 +19,4 @@ hyprshot
 mako
 btop
 zoxide
+less
