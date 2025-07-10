@@ -25,19 +25,16 @@ message {
 
 listview {
   padding: 8;
-  border-radius: 0 0 10 10;
-  border: 2 2 2 2;
   dynamic: false;
   border: 0;
 }
 
 textbox {
-  text-color: @text;
   background-color: inherit;
 }
 
 error-message {
-  border: 20 20 20 20;
+  border: 20;
 }
 
 entry, prompt, case-indicator {
@@ -51,7 +48,6 @@ prompt {
 element {
   padding: 5;
   vertical-align: 0.5;
-  border-radius: 0;
 }
 
 element.selected.normal {
