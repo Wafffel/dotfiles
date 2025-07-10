@@ -17,7 +17,7 @@ options="$Shutdown\n$Reboot\n$Lock\n$Suspend\n$Logout"
 
 
 # Show menu
-chosen="$(echo -e "$options" | $rofi_cmd -p "Uptime <=> $uptime" -dmenu)"
+chosen="$(echo -e "$options" | $rofi_cmd -p "Uptime: $uptime" -dmenu)"
 
 # Command for specific choices
 case $chosen in
