@@ -9,7 +9,7 @@
 
 window#waybar {
     background: transparent;
-    background-color: @mantle;
+    background-color: @base;
     color: @mantle;
     transition-property: background-color;
     transition-duration: 0.1s;
