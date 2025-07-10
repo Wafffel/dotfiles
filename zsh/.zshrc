@@ -37,7 +37,7 @@ function precmd() {
     return
   fi
 
-  if [[ "$LAST_CMD" != "clear" ]]; then
+  if [[ "$LAST_CMD" != "clear" && "$LAST_CMD" != "cl" ]]; then
     echo
   fi
 }

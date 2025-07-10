@@ -20,12 +20,15 @@ alias gcl="git clone"
 alias gcm="git checkout main"
 
 # Fzf
-alias fzf='fzf --preview "bat --color=always --style=numbers --theme=\"Catppuccin Mocha\" --line-range=:500 {}"'
+alias ff='fzf --preview "bat --color=always --style=numbers --theme=\"Catppuccin Mocha\" --line-range=:500 {}"'
 
 # Bat
-alias bat='bat --color=always --style=numbers --theme="Catppuccin Mocha"'
+alias bat='bat --color=always --theme="Catppuccin Mocha"'
 alias cat='bat --color=always --style=plain --theme="Catppuccin Mocha"'
 
 # Eza
 alias ls='eza'
 alias tree='eza -T'
+
+# Clear
+alias cl='clear'
