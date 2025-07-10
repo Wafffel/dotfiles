@@ -4,6 +4,7 @@ alias ...="z ../.."
 alias ....="z ../../.."
 alias ~="z ~"
 alias home="z ~"
+alias cd="z"
 
 # Git
 alias gs="git status"
@@ -23,3 +24,8 @@ alias fzf='fzf --preview "bat --color=always --style=numbers --theme=\"Catppucci
 
 # Bat
 alias bat='bat --color=always --style=numbers --theme="Catppuccin Mocha"'
+alias cat='bat --color=always --style=plain --theme="Catppuccin Mocha"'
+
+# Eza
+alias ls='eza'
+alias tree='eza -T'

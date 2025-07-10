@@ -22,3 +22,4 @@ zoxide
 less
 yazi
 cava
+eza
