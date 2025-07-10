@@ -21,3 +21,4 @@ btop
 zoxide
 less
 yazi
+cava
