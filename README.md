@@ -25,3 +25,4 @@ cava
 eza
 lightdm
 lightdm-gtk-greeter
+spotify(aur)
