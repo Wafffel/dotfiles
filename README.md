@@ -23,3 +23,5 @@ less
 yazi
 cava
 eza
+lightdm
+lightdm-gtk-greeter
