@@ -52,6 +52,7 @@ element {
 
 element.selected.normal {
   background-color: @overlay0;
+  border: 1px;
 }
 
 element.alternate.normal {
