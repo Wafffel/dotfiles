@@ -2,9 +2,19 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["network", "pulseaudio"],
+  "modules-right": ["custom/updates", "network", "pulseaudio"],
   "clock": {
     "format": "{:%a %d %H:%M}",
+    "tooltip": false,
+  },
+  "custom/updates": {
+    "exec": "bash ~/.config/waybar/scripts/arch_updates.sh",
+    "interval": 1800,
+    "tooltip": false,
+    "markup": "pango",
+  },
+  "network": {
+    "tooltip": false,
   },
   "pulseaudio": {
       "format": "{icon} {volume}%",
@@ -12,5 +22,6 @@
       "format-icons": {
           "default": ["", "", " "]
       },
-  }
+      "tooltip": false,
+  },
 }

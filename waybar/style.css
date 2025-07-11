@@ -81,7 +81,11 @@ button:hover {
 }
 
 #network {
-    color: @yellow;
+    color: @peach;
+}
+
+#custom-updates {
+  color: @yellow;
 }
 
 #idle_inhibitor {

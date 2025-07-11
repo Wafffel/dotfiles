@@ -26,3 +26,5 @@ eza
 lightdm
 lightdm-gtk-greeter
 spotify(aur)
+pacman-contrib
+yay
