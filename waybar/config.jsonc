@@ -2,7 +2,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["custom/updates", "network", "pulseaudio"],
+  "modules-right": ["custom/updates", "custom/notifications", "network", "pulseaudio"],
   "clock": {
     "format": "{:%a %d %H:%M}",
     "tooltip": false,
@@ -12,6 +12,11 @@
     "interval": 1800,
     "tooltip": false,
     "markup": "pango",
+  },
+  "custom/notifications": {
+    "exec": "bash ~/.config/waybar/scripts/notification.sh",
+    "interval": 5,
+    "tooltip": false,
   },
   "network": {
     "tooltip": false,

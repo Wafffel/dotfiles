@@ -58,6 +58,8 @@ button:hover {
 #clock,
 #cpu,
 #network,
+#custom-updates,
+#custom-notifications,
 #mode,
 #scratchpad {
   margin-top: 2px;
@@ -86,6 +88,10 @@ button:hover {
 
 #custom-updates {
   color: @yellow;
+}
+
+#custom-notifications {
+  color: @red;
 }
 
 #idle_inhibitor {
