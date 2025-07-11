@@ -11,7 +11,6 @@
     "exec": "bash ~/.config/waybar/scripts/arch_updates.sh",
     "interval": 1800,
     "tooltip": false,
-    "markup": "pango",
   },
   "custom/notifications": {
     "exec": "bash ~/.config/waybar/scripts/notification.sh",
