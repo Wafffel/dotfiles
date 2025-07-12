@@ -7,11 +7,6 @@
     "format": "{:%a %d %H:%M}",
     "tooltip": false,
   },
-  "custom/updates": {
-    "exec": "bash ~/.config/waybar/scripts/arch_updates.sh",
-    "interval": 1800,
-    "tooltip": false,
-  },
   "custom/notifications": {
     "exec": "bash ~/.config/waybar/scripts/notification.sh",
     "interval": 5,
