@@ -4,7 +4,6 @@ DIR="$HOME/.config"
 rofi_cmd="rofi -theme $DIR/rofi/themes/powermenu.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')
-#bat_health=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | rg capacity | awk '{print$2}')
 
 # Options
 Shutdown=""
