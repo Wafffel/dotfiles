@@ -30,7 +30,7 @@ button {
 button:hover {
     background: inherit;
     color: @mauve;
-    border-top: 2px solid @mauve;
+    border-top: 2px solid @sapphire;
 }
 
 #workspaces button {
@@ -40,14 +40,14 @@ button:hover {
 
 #workspaces button.focused {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @rosewater;
-    border-top: 2px solid @rosewater;
+    color: @sapphire;
+    border-top: 2px solid @sapphire;
 }
 
 #workspaces button.active {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @mauve;
-    border-top: 2px solid @mauve;
+    color: @sapphire;
+    border-top: 2px solid @sapphire;
 }
 
 #workspaces button.urgent {
@@ -66,22 +66,7 @@ button:hover {
   margin-right: 4px;
   padding-left: 4px;
   padding-right: 4px;
-}
-
-#clock {
-    color: @maroon;
-}
-
-#clock.date {
-    color: @mauve;
-}
-
-#pulseaudio {
-    color: @blue;
-}
-
-#network {
-    color: @peach;
+  color: @sapphire;
 }
 
 #idle_inhibitor {
