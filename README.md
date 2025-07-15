@@ -27,4 +27,12 @@ lightdm
 lightdm-gtk-greeter
 spotify(aur)
 pacman-contrib
-yay
+xremap-hypr-bin
+fd
+
+# Things to do
+enable lightdm
+symlink .zshrc
+tmux plugin
+make sounds work
+make xremap service
