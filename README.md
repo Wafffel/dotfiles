@@ -29,6 +29,7 @@ spotify(aur)
 pacman-contrib
 xremap-hypr-bin
 fd
+wiremix
 
 # Things to do
 enable lightdm
