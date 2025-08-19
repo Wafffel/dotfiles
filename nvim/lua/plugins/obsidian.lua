@@ -30,7 +30,7 @@ return {
     { "<leader>ot", "<cmd>ObsidianToday<CR>",       desc = "Obsidian Today" },
     { "<leader>oy", "<cmd>ObsidianYesterday<CR>",   desc = "Obsidian Yesterday" },
     { "<leader>os", "<cmd>ObsidianSearch<CR>",      desc = "Obsidian Search" },
-    { "<leader>ol", "<cmd>ObsidianLink<CR>",        desc = "Obsidian Link" },
+    { "<leader>ol", "<cmd>ObsidianLinkNew<CR>",     desc = "Obsidian Link" },
     { "<leader>of", "<cmd>ObsidianFollowLink<CR>",  desc = "Obsidian Follow Link" },
   },
 }
