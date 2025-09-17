@@ -9,8 +9,8 @@
 
 window#waybar {
     background: transparent;
-    background-color: @mantle;
-    color: @mantle;
+    background-color: @crust;
+    color: @text;
     transition-property: background-color;
     transition-duration: 0.1s;
 }
@@ -40,13 +40,13 @@ button:hover {
 
 #workspaces button.focused {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @sapphire;
+    color: @text;
     border-top: 2px solid @sapphire;
 }
 
 #workspaces button.active {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @sapphire;
+    color: @text;
     border-top: 2px solid @sapphire;
 }
 
@@ -66,7 +66,7 @@ button:hover {
   margin-right: 4px;
   padding-left: 4px;
   padding-right: 4px;
-  color: @sapphire;
+  color: @text;
 }
 
 #idle_inhibitor {
