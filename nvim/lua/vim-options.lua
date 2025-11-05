@@ -10,5 +10,3 @@ vim.opt.relativenumber = true
 vim.diagnostic.config({
   virtual_text = true
 })
-
-vim.opt.conceallevel = 1
