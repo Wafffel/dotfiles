@@ -44,8 +44,8 @@ function precmd() {
 
 source <(fzf --zsh)
 
-if [[ -f "$HOME/.config/zsh/.zsh_aliases" ]]; then
-  source "$HOME/.config/zsh/.zsh_aliases"
+if [[ -f "$HOME/.zsh_aliases" ]]; then
+  source "$HOME/.zsh_aliases"
 fi
 
 if [[ -t 1 && -z "$TMUX" ]]; then
