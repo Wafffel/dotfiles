@@ -2,12 +2,17 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["network", "pulseaudio"],
+  "modules-right": ["battery", "network", "pulseaudio"],
   "clock": {
     "format": "{:%a %d %H:%M}",
     "tooltip": false,
   },
   "network": {
+    "interface": "wlp2s0",
+    "format": "{ifname}",
+    "format-wifi": "{essid} ({signalStrength}%) ",
+    "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+    "format-disconnected": "",
     "tooltip": false,
   },
   "pulseaudio": {
@@ -16,6 +21,11 @@
       "format-icons": {
           "default": ["", "", " "]
       },
+      "tooltip": false,
+  },
+  "battery": {
+      "format": "{capacity}% {icon}",
+      "format-icons": ["", "", "", "", ""],
       "tooltip": false,
   },
 }
