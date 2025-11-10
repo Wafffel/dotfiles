@@ -13,6 +13,9 @@ return {
         path = "~/vaults/personal/vault",
       },
     },
+    ui = {
+      enable = false,
+    },
     note_id_func = function(title)
       if title ~= nil and title ~= "" then
         return title
