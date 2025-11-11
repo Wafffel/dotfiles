@@ -24,7 +24,6 @@ alias ff='fzf --preview "bat --color=always --style=numbers --theme=\"Catppuccin
 
 # Bat
 alias bat='bat --color=always --theme="Catppuccin Mocha"'
-alias cat='bat --color=always --style=plain --theme="Catppuccin Mocha"'
 
 # Clear
 alias cl='clear'
