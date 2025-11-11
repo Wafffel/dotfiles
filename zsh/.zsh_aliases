@@ -28,3 +28,6 @@ alias cat='bat --color=always --style=plain --theme="Catppuccin Mocha"'
 
 # Clear
 alias cl='clear'
+
+# Create image file from clipboard
+alias wlpp='wl-paste -t image/png >'
