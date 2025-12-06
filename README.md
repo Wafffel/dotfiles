@@ -30,10 +30,10 @@ pacman-contrib
 xremap-hypr-bin
 fd
 wiremix
+wf-recorder
+slurp
 
 # Things to do
-enable lightdm
-symlink .zshrc
 tmux plugin
 make sounds work
-make xremap service
+make xremap work
