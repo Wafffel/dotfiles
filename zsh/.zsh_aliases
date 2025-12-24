@@ -4,7 +4,6 @@ alias ...="z ../.."
 alias ....="z ../../.."
 alias ~="z ~"
 alias home="z ~"
-alias cd="z"
 
 # Git
 alias gs="git status"
