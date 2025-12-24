@@ -17,6 +17,7 @@ return {
 				c = { "clang-format" },
 				typst = { "typstyle" },
 				bash = { "shfmt" },
+        rust = { "rustfmt" },
 			},
 		},
 	},
