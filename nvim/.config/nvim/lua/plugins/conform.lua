@@ -18,6 +18,7 @@ return {
 				typst = { "typstyle" },
 				bash = { "shfmt" },
         rust = { "rustfmt" },
+        java = { "google-java-format" },
 			},
 		},
 	},
