@@ -1,0 +1,17 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "chat.viewSessions.orientation": "stacked",
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-j>": false
+    },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "chat.viewSessions.enabled": false,
+    "files.exclude": {
+        "**/*.uid": true
+    },
+    "editor.acceptSuggestionOnEnter": "off"
+}
