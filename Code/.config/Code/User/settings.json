@@ -6,6 +6,7 @@
     "chat.viewSessions.orientation": "stacked",
     "vim.handleKeys": {
         "<C-p>": false,
+        "<C-n>": false,
         "<C-j>": false
     },
     "editor.acceptSuggestionOnCommitCharacter": false,
