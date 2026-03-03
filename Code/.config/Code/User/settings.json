@@ -14,5 +14,6 @@
     "files.exclude": {
         "**/*.uid": true
     },
-    "editor.acceptSuggestionOnEnter": "off"
+    "editor.acceptSuggestionOnEnter": "off",
+    "tinymist.exportPdf": "onSave"
 }
