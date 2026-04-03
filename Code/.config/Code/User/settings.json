@@ -15,5 +15,6 @@
         "**/*.uid": true
     },
     "editor.acceptSuggestionOnEnter": "off",
-    "tinymist.exportPdf": "onSave"
+    "tinymist.exportPdf": "onSave",
+    "git.confirmSync": false
 }
