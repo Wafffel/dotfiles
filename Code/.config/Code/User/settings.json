@@ -16,5 +16,12 @@
     },
     "editor.acceptSuggestionOnEnter": "off",
     "tinymist.exportPdf": "onSave",
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": false,
+    "continue.enableTabAutocomplete": false,
+    "yaml.schemas": {
+        "file:///home/krzysztof/.vscode/extensions/continue.continue-2.0.0-linux-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    }
 }
