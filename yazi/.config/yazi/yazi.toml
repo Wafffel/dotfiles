@@ -48,7 +48,7 @@ play = [
 
 [open]
 rules = [
-	{ name = "*/", use = [ "edit", "open", "reveal" ] },
+	{ url = "*/", use = [ "edit", "open", "reveal" ] },
 
 	{ mime = "text/*",  use = [ "edit", "reveal" ] },
 	{ mime = "image/*", use = [ "open", "reveal" ] },
@@ -83,7 +83,7 @@ suppress_preload = false
 
 fetchers = [
 	# Mimetype
-	{ id = "mime", name = "*", run = "mime", if = "!mime", prio = "high" },
+	{ id = "mime", url = "*", run = "mime", if = "!mime", prio = "high", group = "default" },
 ]
 preloaders = [
 	# Image
@@ -98,7 +98,7 @@ preloaders = [
 	{ mime = "application/vnd.ms-opentype", run = "font" },
 ]
 previewers = [
-	{ name = "*/", run = "folder", sync = true },
+	{ url = "*/", run = "folder", sync = true },
 	# Code
 	{ mime = "text/*", run = "code" },
 	{ mime = "*/{xml,javascript,x-wine-extension-ini}", run = "code" },
@@ -120,7 +120,7 @@ previewers = [
 	# Empty file
 	{ mime = "inode/x-empty", run = "empty" },
 	# Fallback
-	{ name = "*", run = "file" },
+	{ url = "*", run = "file" },
 ]
 
 [input]
