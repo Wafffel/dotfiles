@@ -3,6 +3,13 @@
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
   "modules-right": ["battery", "network", "pulseaudio"],
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({workspace=\"e+1\"})' ",
+    "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({workspace=\"e-1\"})' ",
+    "sort-by-name": true,
+  },
   "clock": {
     "format": "{:%a %d %H:%M}",
     "tooltip": false,
